@@ -1,0 +1,23 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+   
+.key{
+    height: 30px;
+    width: 30px;
+    border: 2px solid gray;
+    margin: 7px;
+    text-align: center;
+    transition: 0.07s;
+}
+
+.play{
+    transform: scale(1.1);
+    border: 5px solid yellow;
+    box-shadow: 3px 3px 2px 2px;
+   
+}
