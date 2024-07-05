@@ -11,8 +11,7 @@ window.addEventListener("keydown", (e)=> {
 const keys = document.querySelectorAll(".key")
 keys.forEach(key => key.addEventListener('transitionend',rem));
 function rem(e){
-    if(e.propertyName!=="transform")
-        return;
+   
     this.classList.remove('play');
 }
 
